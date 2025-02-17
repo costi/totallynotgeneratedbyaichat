@@ -1,8 +1,8 @@
 [project]
-name = "repl-nix-workspace"
+name = "totallynotgeneratedbyaichat"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.11"
+requires-python = ">=3.11, <4.0"
 dependencies = [
     "email-validator>=2.2.0",
     "flask-socketio>=5.5.1",
@@ -19,3 +19,5 @@ dependencies = [
     "pytest-selenium>=4.1.0",
     "pytest>=8.3.4",
 ]
+[tool.poetry]
+package-mode = false
