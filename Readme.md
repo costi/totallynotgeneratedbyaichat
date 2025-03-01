@@ -6,16 +6,19 @@
 * poetry install
 
 install postgressql
+
 ```bash
 sudo apt install postgres
 ```
 
 Set the local net to trust by editing
+
 ```bash
 sudo nvim /etc/postgresql/16/main/pg_hba.conf
 ```
 
 Create a superuser account as your user
+
 ```bash
 sudo -u postgres createuse --superuser $USER
 ```
