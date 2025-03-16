@@ -1,6 +1,6 @@
 # Setup instructions
 
-* create a venv (somehow, I forgot how)
+* create a venv in the directory where you cloned: `python -m venv .venv`
 * pip install poetry
 * eval `poetry env activate
 * poetry install
@@ -20,7 +20,7 @@ sudo nvim /etc/postgresql/16/main/pg_hba.conf
 Create a superuser account as your user
 
 ```bash
-sudo -u postgres createuse --superuser $USER
+sudo -u postgres createuser --superuser $USER
 ```
 
 activate venv
