@@ -5,10 +5,10 @@
 * eval `poetry env activate
 * poetry install
 
-install postgressql
+install postgresql
 
 ```bash
-sudo apt install postgres
+sudo apt install postgresql
 ```
 
 Set the local net to trust by editing
